@@ -1,0 +1,45 @@
+
+header {
+	logo {
+		width: 175px;
+		height: 46px;
+	}
+	nav-header {
+		max-width: 100%;
+		width: 600px;
+
+	}
+	
+	display: flex;
+	align-items: center;
+	margin: 56px 116px 30px;
+	max-width: 85%;
+width: 100vw;
+
+}
+
+.nav-items {
+	display: flex;
+	margin-right: 100px;
+			}
+
+	.nav-items >li {
+		align-items: center;
+		margin-right: 60px;
+		
+	}
+
+	.nav-items > li:last-child {
+		margin-right: 0;
+	}
+
+	.nav-items >li a {
+		font-family: Work Sans, Regular;
+		font-size: 22px;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.nav-items >li a:hover {
+		color: #2AF598;
+	}

@@ -1,0 +1,130 @@
+ 
+// font-size main
+
+ %fz-xs {
+	font-family: 'Work Sans', Medium ;
+	font-size: 18px;
+	color: #081323;
+	text-shadow: 0px 1px;
+}
+
+
+
+%fz-xxs {
+	font-family: 'Work Sans', Medium;
+	font-size: 14px;
+	color: #828282;
+	text-shadow: #828282 0 4px 5px ;
+}
+
+//end font-size main
+
+// flex 
+
+%flexcolumn {
+	display: flex;
+	flex-direction: column;
+align-items: center;
+}
+
+%flexcont {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+%contentblock {
+	display: flex;
+	justify-content: space-around;
+position: relative;
+height: fit-content;
+margin-bottom: 50px;
+}
+
+//end flex
+
+// margin 
+
+%margimg {
+	margin-right: 24px;
+}
+
+// card flowers 
+//card-container_cards_1
+%gradcard {
+	margin: 20px 0;
+	background: linear-gradient(to top, transparent, #5D6775, #bfc5ce);
+	border-radius: 25%;
+	border-color: #5D6775;
+	margin-right: 40px;
+}
+//item-flowe_bottom
+%bottomcard {
+	width: 100%;
+	background: linear-gradient(to right,#8d95a0,#5D6775);
+	border-radius: 10%;
+	border: #828386 1px double;
+}
+
+
+
+%texth2 {
+	color: #4F4F4F;
+	font-size: 40px;
+	text-align: center;
+}
+
+%texth3 {
+	color: #4F4F4F;
+}
+
+%svg {
+	width: 40px;
+	padding: 4px 0;
+}
+
+%inpt-wrap {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 463px;
+	height: 31px;
+}
+
+	%form-wrap {
+		width: 100%;
+		border-radius: 50px;
+		background:transparent;
+		display: flex;
+		justify-content: space-around;
+		padding: 2px 6px;
+	}
+
+		%input-wrap {
+			background: transparent;
+			border: 0;
+			outline: none;
+			padding: 14px 10px;
+			font-size: 24px;
+			color: #fff;
+		}
+
+		%btn {
+			background-color: transparent;
+			border: none;
+		}
+
+
+			%images {
+				width: 50px;
+				border-radius: 50%;
+				background: rgb(130, 137, 147);
+				cursor: pointer;
+			}
+
+
+%placeholder{
+		color: rgb(165, 174, 188);
+		font-size: 20px;
+}

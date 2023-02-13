@@ -1,0 +1,270 @@
+.content-blocks {
+	&_1 {
+		margin: 60px 115px 40px;
+	}
+}
+
+
+.service-block {
+	&-list {
+		@extend %flexcont;
+		justify-content: space-between;
+
+		&_item {
+			display: flex;
+			align-items: center;
+
+		}
+
+		img {
+			@extend %margimg;
+			width: 44px;
+		}
+
+		h3 {
+			@extend %fz-xs;
+		}
+
+		p {
+			@extend %fz-xxs;
+
+		}
+	}
+}
+
+
+
+.content-blocks_2 {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	height: 600px;
+
+
+	.card-container {
+		display: flex;
+		position: absolute;
+		width: 90%;
+		border: black solid 1px;
+
+		&_cards {
+			display: flex;
+			width: 80%;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		&_text {
+			display: flex;
+			flex-direction: column;
+			width: 20%;
+			align-items: center;
+			justify-content: center;
+
+			h2 {
+				text-align: center;
+				letter-spacing: 1px;
+				@extend %fz-xs;
+				font-family: 'Work Sans Medium';
+				font-size: 44px;
+				text-shadow: none;
+
+			}
+
+			p {
+				display: flex;
+				align-items: center;
+				font-size: 22px;
+				color: #4F4F4F;
+
+				img {
+					width: 40px;
+					padding: 4px 0;
+				}
+
+				span {
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+}
+
+
+
+.card-container_cards_1 {
+	@extend %margimg;
+
+	.item-flower {
+
+		min-width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		@extend %gradcard;
+
+		&_bottom {
+			@extend %flexcolumn;
+
+			h2 {
+				@extend %fz-xs;
+				color: #3534347d;
+
+			}
+
+			&-end {
+				@extend %flexcont;
+
+				h3 {
+					font-size: 20px;
+					margin-right: 20px;
+					color: #3534347d;
+				}
+
+
+				.cta_btn {
+					width: 30px;
+					border: none;
+					color: transparent;
+				}
+			}
+		}
+	}
+}
+
+
+.content-blocks_3 {
+	height: 1100px;
+	max-width: 100%;
+	max-height: 100%;
+
+
+	.card-img {
+		text-align: center;
+
+		&_text-block {
+			margin-bottom: 40px
+		}
+
+		&_img-block {
+
+
+
+			img {
+				max-width: 90%
+			}
+		}
+
+		@extend %flexcolumn;
+
+		h2 {
+			color: #4F4F4F;
+			font-size: 40px;
+			text-align: center;
+		}
+
+		h3 {
+			color: #4F4F4F;
+		}
+
+		&_twodiv {
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+
+		}
+
+		&_two {
+			@extend %flexcolumn;
+			margin-left: 20px;
+
+			:last-child {
+				margin-top: 38px;
+			}
+		}
+
+	}
+
+}
+
+.cta_btn {
+	border: none;
+}
+
+.content-blocks_4 {
+	@extend %contentblock;
+	height: 650px;
+
+	.block-text-img {
+		width: 100%;
+		position: relative;
+
+		.main-title {
+			@extend %texth2;
+			text-align: left;
+			font-size: 40px;
+			margin-bottom: 30px
+		}
+
+		.main-subtitle {
+			@extend %texth3;
+			width: 400px;
+			align-items: center;
+		}
+
+		&_block-text {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 0 0 60px;
+			text-align: center;
+			position: absolute;
+			margin-left: 7rem;
+		}
+	}
+
+	.block-item {
+		margin-left: 30px;
+		display: flex;
+		flex-direction: column;
+
+		&_list {
+			display: flex;
+			margin-bottom: 30px;
+			
+
+		}
+		&_img {
+			display: flex;
+			@extend %svg;
+			margin-right: 30px;
+			align-content: center;
+		}
+
+		&_text {
+			.block-item_text_title {
+				@extend %texth2;
+
+				font-weight: 700;
+				font-size: 22px;
+				text-align:justify;
+			}
+
+			.block-item_text_subtitle {
+				@extend %texth3;
+
+				margin-top: 10px;
+				text-align: justify;
+				width: 400px;
+			}
+		}
+	}
+}
+
+.wrapper-list-img {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+

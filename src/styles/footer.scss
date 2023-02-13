@@ -1,0 +1,84 @@
+.footer{
+	@extend %flexcolumn;	
+	background: linear-gradient(217deg,#566270,#4c6485);
+
+}
+
+.wrap {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 120px 98px 50px;
+
+	&-list {
+		display: flex;
+		flex-direction: column;
+		
+	}
+}
+
+.footer-divider {
+	background-color: #FFFFFF;
+	width: 95vw;
+	height: 1px;
+	margin: 0 3.2rem;
+}
+
+.footer-bottom {
+	margin-top: 50px;
+}
+
+.inpt-wrap {
+	@extend %inpt-wrap;
+	
+	.search-bar {
+		@extend %form-wrap;
+		border: solid;
+	}
+	input {
+		@extend %input-wrap;	
+	}
+::placeholder {
+	@extend %placeholder;
+}
+	button {
+		@extend %btn;
+		width: 133px;
+		cursor: pointer;
+	}
+
+}
+
+.wrapper-wrap-list {
+display: flex;
+.wrap-list {
+	margin-right: 80px;
+	h3 {
+		font-size: medium;
+		margin-bottom: 30px;
+	}
+	&-item_text {
+		margin-bottom: 10px;
+	}
+}
+}
+
+.wrap-list:last-child {
+	margin-right: 0;
+}
+
+.wrap-text-button {
+display: flex;
+flex-direction: column;
+margin-bottom: 30px;
+.block-title {
+font-family: 'Work Sans',sans-serif;
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.block-title-inpt {
+	margin-bottom: 40px;
+}
+}

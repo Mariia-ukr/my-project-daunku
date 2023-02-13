@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+html,
+body,
+.site-container {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+ol,ul {
+  list-style: none;
+}
